@@ -1,0 +1,21 @@
+
+//Este archivo debe calcular el factorial de 10 utilizando un solo bucle for
+const factorial = 10;
+let r = 1;
+for(let i = factorial; i>0; i--){
+    r *= i;
+}
+console.log(r);
+
+
+//Este archivo debe calcular el factorial de 10 utilizando un bucle while
+let x = 10;
+var i = x-1;
+
+
+while(i > 1){
+    x *= i;
+    i--;
+}
+console.log(x);
+
