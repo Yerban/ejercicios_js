@@ -1,0 +1,14 @@
+
+
+const fecha_nacimiento = new Date("1994, 05, 10");
+
+const lista = ["Germán", 29, true, fecha_nacimiento];
+console.log(lista)
+
+const libro_favorito = {
+    titulo: "pepelucho",
+    auto: "Marcela Paz",
+    fecha: 24-05-1994,
+    url: "https://papelucho.cl/"
+}
+console.log(libro_favorito)
